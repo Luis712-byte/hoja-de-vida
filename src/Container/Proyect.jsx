@@ -5,6 +5,7 @@ import foto2 from "../Assets/flutter.png";
 import foto3 from "../Assets/E-commerce.png";
 import foto4 from "../Assets/Ciudad-Conecta.png";
 import foto5 from "../Assets/Willard-Portal.png";
+import foto6 from "../Assets/Holafomo.png";
 import {
   SiReact,
   SiSass,
@@ -23,7 +24,8 @@ import {
   SiTailwindcss,
   SiVuedotjs,
   SiGithub,
-  SiPhp
+  SiPhp,
+  SiAmazonaws
 } from "react-icons/si";
 
 import { FaGithub, FaLink, FaGlobe, FaMicrosoft, FaCode } from 'react-icons/fa';
@@ -50,7 +52,7 @@ const techIcons = {
   "Azure": <FaMicrosoft />,
   "C#": <FaCode />,
   "PHP": <SiPhp />,
-
+  "AWS": <SiAmazonaws />,
 };
 
 
@@ -139,14 +141,33 @@ const projectData = [
       es: "Plataforma de gestión de clientes y servicios",
       en: "Customer and service management platform",
     },
-    thumbnail: foto5, 
+    thumbnail: foto5,
     description: {
       es: "Willard Portal es una plataforma diseñada para la gestión integral de clientes, garantías y servicios en Baterías Willard, construida con PHP, SQL y JavaScript.",
       en: "Willard Portal is a platform designed for the comprehensive management of customers, warranties, and services at Baterías Willard, built with PHP, SQL, and JavaScript.",
     },
     techStack: ["PHP", "SQL", "JavaScript"],
     liveSite: "https://will360.bateriaswillard.com/",
+  },
+  {
+    id: 6,
+    title: {
+      es: "Holafomo",
+      en: "Holafomo",
+    },
+    subtitle: {
+      es: "Plataforma de marketing de influencia en tiempo real",
+      en: "Real-time influence marketing platform",
+    },
+    thumbnail: foto6,
+    description: {
+      es: "Holafomo es una plataforma de marketing en tiempo real que utiliza notificaciones inteligentes para aumentar la conversión de sitios web, construida con React, SQL y desplegada en AWS.",
+      en: "Holafomo is a real-time marketing platform that uses smart notifications to boost website conversion, built with React, SQL, and deployed on AWS.",
+    },
+    techStack: ["React", "SQL", "AWS"],
+    liveSite: "https://holafomo.com/es",
   }
+
 ];
 
 const ProjectArticle = ({
