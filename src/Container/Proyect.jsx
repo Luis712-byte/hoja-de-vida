@@ -2,10 +2,13 @@ import React, { useContext } from "react";
 import { useLanguage } from "../Context/LanguageContext";
 import foto1 from "../Assets/Pivvot_reducida.jpg";
 import foto2 from "../Assets/flutter.png";
-import foto3 from "../Assets/E-commerce.png";
+import foto3 from "../Assets/Flotu.png";
 import foto4 from "../Assets/Ciudad-Conecta.png";
 import foto5 from "../Assets/Willard-Portal.png";
 import foto6 from "../Assets/Holafomo.png";
+import foto7 from "../Assets/Quick-Grow.png";
+import foto8 from "../Assets/AMB.png";
+
 import {
   SiReact,
   SiSass,
@@ -25,7 +28,8 @@ import {
   SiVuedotjs,
   SiGithub,
   SiPhp,
-  SiAmazonaws
+  SiAmazonaws,
+  SiShopify ,
 } from "react-icons/si";
 
 import { FaGithub, FaLink, FaGlobe, FaMicrosoft, FaCode } from 'react-icons/fa';
@@ -53,6 +57,9 @@ const techIcons = {
   "C#": <FaCode />,
   "PHP": <SiPhp />,
   "AWS": <SiAmazonaws />,
+  "Shopify": <SiShopify />,
+  "Liquid": <FaCode />,
+  "NestJs": <SiNodedotjs />,
 };
 
 
@@ -96,21 +103,20 @@ const projectData = [
   {
     id: 3,
     title: {
-      es: "FashionCode",
-      en: "FashionCode",
+      es: "Flotu",
+      en: "Flotu",
     },
     subtitle: {
-      es: "E-commerce",
-      en: "E-commerce",
+      es: "Micromovilidad Sostenible",
+      en: "Sustainable Micromobility",
     },
     thumbnail: foto3,
     description: {
-      es: "FashionCode es una plataforma de comercio electrónico diseñada para ofrecer una experiencia de compra moderna y fluida. Desarrollada con tecnologías web de vanguardia.",
-      en: "FashionCode is an e-commerce platform designed to offer a modern and seamless shopping experience. Developed with cutting-edge web technologies.",
+      es: "Flotu es una plataforma de micromovilidad que permite alquilar scooters, bicicletas y motos eléctricas en Barranquilla. Su objetivo es ofrecer una alternativa de transporte ecológica y eficiente, facilitando la movilidad urbana sin complicaciones.",
+      en: "Flotu is a micromobility platform that allows users to rent electric scooters, bicycles, and motorcycles in Barranquilla. Its goal is to provide an eco-friendly and efficient transportation alternative, facilitating urban mobility without hassle.",
     },
-    techStack: ["React", "SQL", "CSS", "Node Js", "Tailwind"],
-    liveSite: "https://fashion-code-rouge.vercel.app/",
-    github: "https://github.com/Luis712-byte/Fashion-Code",
+    techStack: ["React", "Node Js", "SQL", "Tailwind"],
+    liveSite: "https://www.flotu.com/",
   },
   {
     id: 4,
@@ -146,7 +152,7 @@ const projectData = [
       es: "Willard Portal es una plataforma diseñada para la gestión integral de clientes, garantías y servicios en Baterías Willard, construida con PHP, SQL y JavaScript.",
       en: "Willard Portal is a platform designed for the comprehensive management of customers, warranties, and services at Baterías Willard, built with PHP, SQL, and JavaScript.",
     },
-    techStack: ["PHP", "SQL", "JavaScript"],
+    techStack: ["PHP", "SQL", "JavaScript","Tailwind"],
     liveSite: "https://will360.bateriaswillard.com/",
   },
   {
@@ -164,10 +170,45 @@ const projectData = [
       es: "Holafomo es una plataforma de marketing en tiempo real que utiliza notificaciones inteligentes para aumentar la conversión de sitios web, construida con React, SQL y desplegada en AWS.",
       en: "Holafomo is a real-time marketing platform that uses smart notifications to boost website conversion, built with React, SQL, and deployed on AWS.",
     },
-    techStack: ["React", "SQL", "AWS"],
+    techStack: ["React", "SQL", "AWS", "Tailwind","Node Js"],
     liveSite: "https://holafomo.com/es",
+  },
+  {
+    id: 7,
+    title: {
+      es: "Quick Grow",
+      en: "Quick Grow",
+    },
+    subtitle: {
+      es: "Cuidado Capilar y Belleza",
+      en: "Hair Care & Beauty",
+    },
+    thumbnail: foto7,
+    description: {
+      es: "Quick Grow ofrece productos clínicamente probados para estimular el crecimiento del cabello, fortalecer uñas y mejorar la piel, combinando suplementos, colágeno vegano y tratamientos capilares.",
+      en: "Quick Grow provides clinically tested products to boost hair growth, strengthen nails, and enhance skin health, combining supplements, vegan collagen, and hair treatments.",
+    },
+    techStack: ["Shopify", "Liquid", "JavaScript", "React", "Tailwind", "AWS"],
+    liveSite: "https://quickgrow.co/",
+  },
+  {
+    id: 8,
+    title: {
+      es: "AMB",
+      en: "AMB",
+    },
+    subtitle: {
+      es: "Servicios Públicos",
+      en: "Public Services",
+    },
+    thumbnail: foto8,
+    description: {
+      es: "AMB gestiona el suministro de agua potable en Bucaramanga y su área metropolitana, promoviendo el cuidado ambiental y el acceso sostenible al recurso hídrico.",
+      en: "AMB manages the potable water supply in Bucaramanga and its metropolitan area, promoting environmental care and sustainable access to water.",
+    },
+    techStack: ["PHP", "Tailwind", "NestJs", "AWS"],
+    liveSite: "https://www.amb.com.co/amb/",
   }
-
 ];
 
 const ProjectArticle = ({
