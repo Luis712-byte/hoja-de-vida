@@ -4,6 +4,7 @@ import foto1 from "../Assets/Pivvot_reducida.jpg";
 import foto2 from "../Assets/flutter.png";
 import foto3 from "../Assets/E-commerce.png";
 import foto4 from "../Assets/Ciudad-Conecta.png";
+import foto5 from "../Assets/Willard-Portal.png";
 import {
   SiReact,
   SiSass,
@@ -22,9 +23,10 @@ import {
   SiTailwindcss,
   SiVuedotjs,
   SiGithub,
+  SiPhp
 } from "react-icons/si";
 
-import { FaGithub, FaLink, FaGlobe, FaMicrosoft, FaCode  } from 'react-icons/fa';
+import { FaGithub, FaLink, FaGlobe, FaMicrosoft, FaCode } from 'react-icons/fa';
 
 const techIcons = {
   "React": <SiReact />,
@@ -46,7 +48,9 @@ const techIcons = {
   "GitHub": <SiGithub />,
   "React Native": <SiReact />,
   "Azure": <FaMicrosoft />,
-  "C#": <FaCode  />
+  "C#": <FaCode />,
+  "PHP": <SiPhp />,
+
 };
 
 
@@ -124,6 +128,24 @@ const projectData = [
     techStack: ["C#", "Azure", "SQL", "JavaScript"],
     liveSite: "https://ciudad-conecta-h6g8dqf7ehbve0dy.canadacentral-01.azurewebsites.net/",
     github: "https://github.com/Luis712-byte/Ciudad-Conecta",
+  },
+  {
+    id: 5,
+    title: {
+      es: "Willard Portal",
+      en: "Willard Portal",
+    },
+    subtitle: {
+      es: "Plataforma de gestión de clientes y servicios",
+      en: "Customer and service management platform",
+    },
+    thumbnail: foto5, 
+    description: {
+      es: "Willard Portal es una plataforma diseñada para la gestión integral de clientes, garantías y servicios en Baterías Willard, construida con PHP, SQL y JavaScript.",
+      en: "Willard Portal is a platform designed for the comprehensive management of customers, warranties, and services at Baterías Willard, built with PHP, SQL, and JavaScript.",
+    },
+    techStack: ["PHP", "SQL", "JavaScript"],
+    liveSite: "https://will360.bateriaswillard.com/",
   }
 ];
 

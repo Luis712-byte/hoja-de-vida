@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import Foto from "../Assets/Perfil.jpg";
-import flagES from "../Assets/Flag_of_Spain.svg";
+import flagES from "../Assets/Flag-es.jpg";
 import flagEN from "../Assets/Flag_of_the_United_States.svg";
 import { useLanguage } from "../Context/LanguageContext";
 const NavBar = () => {
