@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useLanguage } from "../Context/LanguageContext";
 import ProjectUI from "../components/ui/ProjectUI";
 import { projectData, getProjectsTexts } from "../constants/projectsData";

@@ -2,15 +2,8 @@ import React, { useState } from "react";
 import { useLanguage } from "../Context/LanguageContext";
 
 const MapsUbicacion = () => {
-  const [showCard, setShowCard] = useState(true);
-  const [showCardTitle, setShowCardTitle] = useState(true);
-  const [cardColor, setCardColor] = useState("#ffffff");
-  const [cardOpacity, setCardOpacity] = useState(100);
-  const [alignContent, setAlignContent] = useState(1);
 
   const { language } = useLanguage();
-
-  const handleAlignChange = (e) => setAlignContent(Number(e.target.value));
 
   return (
     <>
