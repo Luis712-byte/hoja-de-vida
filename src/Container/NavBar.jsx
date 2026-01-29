@@ -45,7 +45,7 @@ const NavBar = () => {
           backdrop-filter: blur(4px);
         }
         .custom-navbar.scrolled{ padding:10px 0; box-shadow: 0 8px 22px rgba(6,12,30,0.28); }
-        .navbar-container-flex { display:flex; align-items:center; width:100%; gap:12px; }
+        .navbar-container-flex { position:relative; display:flex; align-items:center; width:100%; gap:12px; }
         .navbar-left { display:flex; align-items:center; gap:12px; }
         .navbar-right { margin-left:auto; display:flex; align-items:center; gap:12px; }
 
@@ -99,6 +99,8 @@ const NavBar = () => {
           .brand-logo{ width:52px; height:52px; font-size:16px; }
           .lang-button{ padding:7px 10px; font-size:13px; }
         }
+        /* botón móvil: posicionamiento absoluto dentro del contenedor */
+        .mobile-lang-btn{ position:absolute; right:12px; top:50%; transform:translateY(-50%); z-index:1050; }
       `}</style>
 
       <Container className="navbar-container-flex">
@@ -133,7 +135,7 @@ const NavBar = () => {
           </div>
         </div>
           {/* botón móvil fuera del collapse para mostrar siempre la opción de idioma */}
-          <div className="d-lg-none" style={{ marginLeft: 8 }}>
+          <div className="d-lg-none mobile-lang-btn">
             <button
               className="lang-button"
               onClick={toggleLanguage}
