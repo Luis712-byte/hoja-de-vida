@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.11f62ba5.css",
-    "main.js": "/static/js/main.3cea0160.js",
-    "static/js/787.977d3f24.chunk.js": "/static/js/787.977d3f24.chunk.js",
-    "static/media/Biblioteca.png": "/static/media/Biblioteca.52120efe0abec5ea66c1.png",
-    "static/media/E-commerce.png": "/static/media/E-commerce.87a142cd407e128f0d91.png",
-    "static/media/Perfil.jpg": "/static/media/Perfil.721af54cf7d76ec570bd.jpg",
+    "main.css": "/static/css/main.d107b7d8.css",
+    "main.js": "/static/js/main.44b32e2b.js",
+    "static/js/787.425eba68.chunk.js": "/static/js/787.425eba68.chunk.js",
+    "static/media/AMB.png": "/static/media/AMB.3382fd3f05c051563d6f.png",
+    "static/media/Flotu.png": "/static/media/Flotu.205fe787928aec5c1c83.png",
+    "static/media/Quick-Grow.png": "/static/media/Quick-Grow.529ad143b41f98c5e59b.png",
+    "static/media/Holafomo.png": "/static/media/Holafomo.e3bcab669a1d880b530f.png",
     "static/media/flutter.png": "/static/media/flutter.fa7ff98d1523b808f6e5.png",
-    "static/media/Flag_of_Spain.svg": "/static/media/Flag_of_Spain.df284495e9b353e26682c78d780c5f27.svg",
+    "static/media/CVLuisAcosta.pdf": "/static/media/CVLuisAcosta.829ced59bdddd55b089f.pdf",
+    "static/media/Willard-Portal.png": "/static/media/Willard-Portal.2e85c6c31a4518058fca.png",
+    "static/media/Ciudad-Conecta.png": "/static/media/Ciudad-Conecta.cc8a59bbf9284532fded.png",
     "static/media/Resume.pdf": "/static/media/Resume.d00e255fbdc4daed2985.pdf",
-    "static/media/CVLuisAcosta.pdf": "/static/media/CVLuisAcosta.440f0f3268bd408208a0.pdf",
     "static/media/Pivvot_reducida.jpg": "/static/media/Pivvot_reducida.4dbe94abb2476e635313.jpg",
-    "static/media/Flag_of_the_United_States.svg": "/static/media/Flag_of_the_United_States.2cd38b29c6d401d318403df9e01abc9d.svg",
+    "static/media/Flag_of_the_United_States.svg": "/static/media/Flag_of_the_United_States.ea85ac4db097830c05aea053027950fc.svg",
     "index.html": "/index.html",
-    "main.11f62ba5.css.map": "/static/css/main.11f62ba5.css.map",
-    "main.3cea0160.js.map": "/static/js/main.3cea0160.js.map",
-    "787.977d3f24.chunk.js.map": "/static/js/787.977d3f24.chunk.js.map"
+    "main.d107b7d8.css.map": "/static/css/main.d107b7d8.css.map",
+    "main.44b32e2b.js.map": "/static/js/main.44b32e2b.js.map",
+    "787.425eba68.chunk.js.map": "/static/js/787.425eba68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11f62ba5.css",
-    "static/js/main.3cea0160.js"
+    "static/css/main.d107b7d8.css",
+    "static/js/main.44b32e2b.js"
   ]
 }
