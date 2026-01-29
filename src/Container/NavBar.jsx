@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 import flagES from "../Assets/Flag-es.jpg";
 import flagEN from "../Assets/Flag_of_the_United_States.svg";
 import { useLanguage } from "../Context/LanguageContext";
@@ -113,47 +113,8 @@ const NavBar = () => {
             </div>
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="navbarContent" />
         </div>
 
-        <Navbar.Collapse id="navbarContent">
-          <Nav className="ms-auto align-items-center">
-            <Nav.Link href="#quien-soy" className="nav-link-container js-scroll-trigger">
-              {language === "es" ? "¿Quién soy?" : "Who am I?"}
-            </Nav.Link>
-
-            <Nav.Link href="#skills" className="nav-link-container js-scroll-trigger">
-              {language === "es" ? "Habilidades" : "Resume"}
-            </Nav.Link>
-
-            <Nav.Link href="#projects-container" className="nav-link-container js-scroll-trigger">
-              {language === "es" ? "Proyectos" : "Projects"}
-            </Nav.Link>
-
-            <Nav.Link href="#contacto" className="nav-link-container js-scroll-trigger">
-              {language === "es" ? "Contacto" : "Contact"}
-            </Nav.Link>
-
-            {/* botón dentro del collapse (móvil) */}
-            <div className="d-lg-none" style={{ marginLeft: 8 }}>
-              <button
-                className="lang-button"
-                onClick={toggleLanguage}
-                aria-label={language === "es" ? "Cambiar a inglés" : "Cambiar a español"}
-                title={language === "es" ? "Cambiar a Inglés" : "Cambiar a Español"}
-              >
-                <img
-                  src={language === "es" ? flagES : flagEN}
-                  alt={language === "es" ? "ES" : "EN"}
-                  className="lang-flag"
-                />
-                <span className="lang-label">{language === "es" ? "ES" : "EN"}</span>
-              </button>
-            </div>
-          </Nav>
-        </Navbar.Collapse>
-
-        {/* botón desktop: totalmente a la derecha */}
         <div className="navbar-right d-none d-lg-flex">
           <div className="lang-outside">
             <button
@@ -171,6 +132,22 @@ const NavBar = () => {
             </button>
           </div>
         </div>
+          {/* botón móvil fuera del collapse para mostrar siempre la opción de idioma */}
+          <div className="d-lg-none" style={{ marginLeft: 8 }}>
+            <button
+              className="lang-button"
+              onClick={toggleLanguage}
+              aria-label={language === "es" ? "Cambiar a inglés" : "Cambiar a español"}
+              title={language === "es" ? "Cambiar a Inglés" : "Cambiar a Español"}
+            >
+              <img
+                src={language === "es" ? flagES : flagEN}
+                alt={language === "es" ? "ES" : "EN"}
+                className="lang-flag"
+              />
+              <span className="lang-label">{language === "es" ? "ES" : "EN"}</span>
+            </button>
+          </div>
 
         <div className="progress-track" aria-hidden>
           <div id="progress-bar" className="progress-thumb"></div>

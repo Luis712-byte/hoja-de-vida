@@ -30,7 +30,6 @@ const Footer = () => {
     contactTitle: language === "es" ? "Contacto" : "Contact",
     contactEmailCopied: language === "es" ? "Correo copiado" : "Email copied",
     contactCall: language === "es" ? "Llamar" : "Call",
-    contactBtn: language === "es" ? "Contactar" : "Contact",
     linksTitle: language === "es" ? "Enlaces" : "Links",
     who: language === "es" ? "¿Quién soy?" : "Who am I?",
     whoNote: language === "es" ? "Resumen" : "Summary",
@@ -105,10 +104,6 @@ const Footer = () => {
               </div>
 
               <div style={{ height: 12 }} />
-
-              <a href="#contacto" className="cta-btn" aria-label={t.contactBtn}>
-                {t.contactBtn}
-              </a>
             </Col>
 
             <Col md={3} sm={6}>
