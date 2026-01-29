@@ -56,7 +56,7 @@ class AboutMe extends React.Component {
                 <div className="intro-btns">
                   <div className="form-group">
                     <button className="download-button" onClick={() => this.downloadPDF(language)}>
-                      <div className="docs">
+                      <div className="docs" style={{ display: "flex", justifyContent: "center" }}>
                         <svg
                           className="css-i6dzq1"
                           strokeLinejoin="round"

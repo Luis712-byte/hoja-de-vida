@@ -29,6 +29,7 @@ export default function Curriculum() {
       <section>
         <MapsUbicacion></MapsUbicacion>
       </section>
+      <Footer></Footer>
     </LanguageProvider>
   );
 }
