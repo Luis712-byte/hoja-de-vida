@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.84eb3189.css",
-    "main.js": "/static/js/main.f06e2aaa.js",
+    "main.css": "/static/css/main.e1ef110b.css",
+    "main.js": "/static/js/main.bc11e957.js",
     "static/js/453.b9c93ad8.chunk.js": "/static/js/453.b9c93ad8.chunk.js",
     "static/media/AMB.png": "/static/media/AMB.3382fd3f05c051563d6f.png",
     "static/media/Flotu.png": "/static/media/Flotu.205fe787928aec5c1c83.png",
@@ -9,18 +9,18 @@
     "static/media/Holafomo.png": "/static/media/Holafomo.e3bcab669a1d880b530f.png",
     "static/media/flutter.png": "/static/media/flutter.fa7ff98d1523b808f6e5.png",
     "static/media/CVLuisAcosta.pdf": "/static/media/CVLuisAcosta.829ced59bdddd55b089f.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.9c18c954eab74a4a4fee.pdf",
     "static/media/Willard-Portal.png": "/static/media/Willard-Portal.2e85c6c31a4518058fca.png",
     "static/media/Ciudad-Conecta.png": "/static/media/Ciudad-Conecta.cc8a59bbf9284532fded.png",
-    "static/media/Resume.pdf": "/static/media/Resume.d00e255fbdc4daed2985.pdf",
     "static/media/Pivvot_reducida.jpg": "/static/media/Pivvot_reducida.4dbe94abb2476e635313.jpg",
     "static/media/Flag_of_the_United_States.svg": "/static/media/Flag_of_the_United_States.ea85ac4db097830c05aea053027950fc.svg",
     "index.html": "/index.html",
-    "main.84eb3189.css.map": "/static/css/main.84eb3189.css.map",
-    "main.f06e2aaa.js.map": "/static/js/main.f06e2aaa.js.map",
+    "main.e1ef110b.css.map": "/static/css/main.e1ef110b.css.map",
+    "main.bc11e957.js.map": "/static/js/main.bc11e957.js.map",
     "453.b9c93ad8.chunk.js.map": "/static/js/453.b9c93ad8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84eb3189.css",
-    "static/js/main.f06e2aaa.js"
+    "static/css/main.e1ef110b.css",
+    "static/js/main.bc11e957.js"
   ]
 }

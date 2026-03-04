@@ -27,7 +27,6 @@ const Footer = () => {
 
   const t = {
     brandSub: language === "es" ? "DESARROLLADOR FULL-STACK" : "FULL-STACK DEVELOPER",
-    contactTitle: language === "es" ? "Contacto" : "Contact",
     contactEmailCopied: language === "es" ? "Correo copiado" : "Email copied",
     contactCall: language === "es" ? "Llamar" : "Call",
     linksTitle: language === "es" ? "Enlaces" : "Links",
@@ -163,22 +162,6 @@ const Footer = () => {
                     }}>
                       <span style={{ fontSize: 15 }}>{t.projects}</span>
                       <small style={{ color: "rgba(255,255,255,0.6)", fontSize: 12 }}>{t.projectsNote}</small>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#contacto" role="menuitem" style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      padding: "10px 12px",
-                      borderRadius: 10,
-                      textDecoration: "none",
-                      color: "inherit",
-                      transition: "background .14s ease, transform .08s ease, color .12s ease"
-                    }}>
-                      <span style={{ fontSize: 15 }}>{t.contacto}</span>
-                      <small style={{ color: "rgba(255,255,255,0.6)", fontSize: 12 }}>{t.contactoNote}</small>
                     </a>
                   </li>
                 </ul>

@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import MapsUbicacion from "./MapsUbicacion";
 import { LanguageProvider } from "../Context/LanguageContext";
 import Skill from "./Skill";
-import Contact from "./Contact";
 import AboutMe from "./AboutMe";
 import Proyect from "./Proyect";
 
@@ -22,9 +21,6 @@ export default function Curriculum() {
       </section>
       <section>
         <Proyect></Proyect>
-      </section>
-      <section>
-        <Contact></Contact>
       </section>
       <section>
         <MapsUbicacion></MapsUbicacion>
